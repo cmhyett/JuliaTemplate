@@ -2,7 +2,7 @@
 A repository meant to handle integration with automated actions (CI, automated doc builds, formatting checks, etc) to allow for quicker spin-up of Julia projects.
 
 ## Quick start:
-1. Clone this repo
+1. `Use this template` in the top-right of the repo homepage to create new repo, clone that repo.
 2. Change author line in `Project.toml` to your name
 3. Change module name to something appropriate in:
     1. `./test/runtests.jl:1:using MyModule`
