@@ -5,9 +5,9 @@ A repository meant to handle integration with automated actions (CI, automated d
 1. Clone this repo
 2. Change author line in `Project.toml` to your name
 3. Change module name to something appropriate in:
-  a. `./test/runtests.jl:1:using MyModule`
-  b. `./Project.toml:1:name = "MyModule"`
-  c. `./src/MyModule.jl:1:module MyModule`
+    1. `./test/runtests.jl:1:using MyModule`
+    2. `./Project.toml:1:name = "MyModule"`
+    3. `./src/MyModule.jl:1:module MyModule`
 4. Go develop! (and test!)
 5. Open issues on this template repository if the template fails you in some way.
 
